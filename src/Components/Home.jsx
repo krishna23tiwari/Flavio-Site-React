@@ -2,13 +2,13 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="relative h-screen w-screen bg-slate-500">
-      {/* <div
-        className=" absolute w-full h-full bg-cover bg-center"
-        style={{ backgroundImage: "url('/src/Images/Home.jpeg')", backgroundAttachment:"fixed" }}
-      ></div> */}
+    <div className="relative inset-0 h-screen w-screen bg-slate-500">
+      <div
+        className=" absolute inset-0 w-full h-full bg-cover bg-center"
+        style={{ backgroundImage: "url('/src/Images/Home.jpeg')", backgroundAttachment: "fixed" }}
+      ></div>
 
-      <div className="fixed font-[Bebas Neue] text-[#143642] top-0 left-0 w-full flex justify-between items-center p-4 bg-transparent z-20">
+      <div className="absolute inset-0 font-[Bebas Neue] text-[#143642] w-full flex justify-between items-start p-4 bg-transparent z-20">
         <div className="flex space-x-6">
           <a href="#home" className="text-xl">
             Home
@@ -36,15 +36,11 @@ const Home = () => {
             Make Reservation
           </button>
         </div>
-        
+
       </div>
-<div className="absolute "><h1>RESTAURANT BY DEVESH Changed 2nd Time</h1></div>
-      {/* <div className="relative z-10 text-white p-8 pt-24"> */}
-      {/* <h1 className="text-center text-[#143642] font-[Bebas Neue] text-9xl font-medium tracking-[0.2em] leading-[179.2px] mt-10">
-                RESTAURANT
-            </h1> */}
-      {/* <div style={{ height: '150vh' }}></div> */}
-      {/* </div> */}
+      <div className="absolute top-10 text-black p-8">
+        <h1>RESTAURANT BY DEVESH Changed 2nd Time</h1>
+      </div>
     </div>
   );
 };

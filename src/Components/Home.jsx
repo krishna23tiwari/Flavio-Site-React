@@ -39,7 +39,7 @@ const Home = () => {
 
       </div>
       <div className="absolute top-10 text-black p-8">
-        <h1>RESTAURANT BY DEVESH Changed 2nd Time</h1>
+        <h1>RESTAURANT BY DEVESH Changed 2nd Time with a new branch created</h1>
       </div>
     </div>
   );

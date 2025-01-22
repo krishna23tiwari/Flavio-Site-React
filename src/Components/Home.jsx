@@ -38,7 +38,7 @@ const Home = () => {
         </div>
         
       </div>
-<div className="absolute "><h1>RESTAURANT</h1></div>
+<div className="absolute "><h1>RESTAURANT BY DEVESH</h1></div>
       {/* <div className="relative z-10 text-white p-8 pt-24"> */}
       {/* <h1 className="text-center text-[#143642] font-[Bebas Neue] text-9xl font-medium tracking-[0.2em] leading-[179.2px] mt-10">
                 RESTAURANT

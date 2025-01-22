@@ -8,7 +8,7 @@ const Home = () => {
         style={{ backgroundImage: "url('/src/Images/Home.jpeg')", backgroundAttachment: "fixed" }}
       ></div>
 
-      <div className="absolute inset-0 font-[Bebas Neue] text-[#143642] w-full flex justify-between items-start p-4 bg-transparent z-20">
+      <div className="absolute inset-0 text-[#143642] w-full flex justify-between items-start p-4 bg-transparent z-20">
         <div className="flex space-x-6">
           <a href="#home" className="text-xl">
             Home
@@ -38,8 +38,8 @@ const Home = () => {
         </div>
 
       </div>
-      <div className="absolute top-10 text-black p-8">
-        <h1>RESTAURANT BY DEVESH Changed 2nd Time with a new branch created</h1>
+      <div className="absolute flex top-72 left-[600px] text-9xl font-disma text-black">
+        <h1>RESTAURANT</h1>
       </div>
     </div>
   );

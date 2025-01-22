@@ -3,10 +3,10 @@ import React from "react";
 const Home = () => {
   return (
     <div className="relative h-screen w-screen bg-slate-500">
-      {/* <div
+      <div
         className=" absolute w-full h-full bg-cover bg-center"
         style={{ backgroundImage: "url('/src/Images/Home.jpeg')", backgroundAttachment:"fixed" }}
-      ></div> */}
+      ></div>
 
       <div className="fixed font-[Bebas Neue] text-[#143642] top-0 left-0 w-full flex justify-between items-center p-4 bg-transparent z-20">
         <div className="flex space-x-6">

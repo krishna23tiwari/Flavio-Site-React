@@ -1,11 +1,13 @@
 import React from 'react'
 import Home from './Components/Home'
+import Feature from './Components/Feature';
 
 const App = () => {
   return (
-   <div className='overflow-'>
-    <Home/>
-   </div>
+    <div className='overflow-x-hidden '>
+      <Home />
+      <Feature />
+    </div>
   )
 }
 

@@ -38,7 +38,7 @@ const Home = () => {
         </div>
 
       </div>
-      <div className="absolute flex top-72 left-[600px] text-9xl font-disma text-black">
+      <div className="absolute flex top-72 left-[4.8em] text-9xl font-disma text-black">
         <h1>RESTAURANT</h1>
       </div>
     </div>

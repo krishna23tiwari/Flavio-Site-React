@@ -1,11 +1,12 @@
 import React from "react";
+import App from './../App';
 
 const Home = () => {
   return (
     <div className="relative h-screen w-screen bg-slate-500">
       <div
-        className=" absolute w-full h-full bg-cover bg-center"
-        style={{ backgroundImage: "url('/src/Images/Home.jpeg')", backgroundAttachment:"fixed" }}
+        className="absolute w-full h-full bg-cover bg-center"
+        style={{ backgroundImage: "url('/src/Images/Home.jpeg')", backgroundAttachment: "fixed" }}
       ></div>
 
       <div className="absolute inset-0 text-[#143642] w-full flex justify-between items-start p-4 bg-transparent z-20">
@@ -36,10 +37,10 @@ const Home = () => {
             Make Reservation
           </button>
         </div>
-
       </div>
-      <div className="absolute flex top-72 left-[4.8em] text-9xl font-disma text-black">
-        <h1>RESTAURANT</h1>
+      <div className="absolute inset-0 flex flex-col justify-center items-center font-disma text-black">
+        <p className="antialiased box-border clear-both text-[#A97959] font-AlexBrush text-[46.08px] font-medium leading-[59.904px] break-words text-center">Welcome to our</p>
+        <h1 className="box-border clear-both text-[#143642] font-BebasNeue text-[160px] font-semibold tracking-[50px] leading-[215.04px] break-words text-center mb-16">RESTAURANT</h1>
       </div>
     </div>
   );

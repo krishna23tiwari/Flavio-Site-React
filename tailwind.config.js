@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        disma: ['Agdasima', 'sans-serif'],
+        BebasNeue: ["Bebas Neue", "serif"],
+        AlexBrush: ['Alex Brush', 'serif'],
       },
     },
   },

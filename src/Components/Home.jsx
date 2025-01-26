@@ -3,7 +3,7 @@ import App from './../App';
 
 const Home = () => {
   return (
-    <div className="relative h-screen w-screen bg-slate-500">
+    <div className="relative h-screen w-[98%] border-[1px] ml-4 mr-4 border-gray-300">
       <div
         className="absolute w-full h-full bg-cover bg-center"
         style={{ backgroundImage: "url('/src/Images/Home.jpeg')", backgroundAttachment: "fixed" }}
@@ -11,7 +11,7 @@ const Home = () => {
 
       <div className="absolute inset-0 p-10 font-BebasNeue text-[#143642] w-full flex justify-between items-start bg-transparent z-20">
         <div className="flex space-x-6">
-          <a href="#home" className="text-2xl hover:text-[#815D45] pt-3 hover:border-t-2 hover:border-[#815D45] border-t-2 border-transparent transition-all duration-500 eas ">
+          <a href="#home" className="text-2xl text-[#815D45] hover:text-[#815D45] pt-3 hover:border-t-2 hover:border-[#815D45] border-t-2 border-transparent transition-all duration-500 ease-in ">
             Home
           </a>
           <a href="#menu" className="text-2xl hover:text-[#815D45] pt-3 hover:border-t-2 hover:border-[#815D45] border-t-2 border-transparent transtion duration-500 ease-in-out">
@@ -31,7 +31,7 @@ const Home = () => {
 
         <div>
           <button
-            className="px-8 py-3 font-[Bebas Neue] text-white font-semibold gap-2 leading-loose p-5 text-xl"
+            className="px-8 py-3 font-[Bebas Neue] text-white font-medium gap-2 leading-loose p-5 text-xl"
             style={{ backgroundColor: "#815D45", color: "white" }}
           >
             Make Reservation

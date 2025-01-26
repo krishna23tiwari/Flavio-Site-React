@@ -1,12 +1,12 @@
 import React from 'react'
 import Home from './Components/Home'
-import Feature from './Components/Feature';
+import AboutSection from './Components/AboutSection';
 
 const App = () => {
   return (
-    <div className='overflow-x-hidden '>
+    <div className='overflow-x-hidden bg-[#F4EFEB]'>
       <Home />
-      <Feature />
+      <AboutSection />
     </div>
   )
 }

@@ -10,7 +10,7 @@ const Home = () => {
       ></div>
 
       <div className="absolute inset-0 p-10 font-BebasNeue text-[#143642] w-full flex justify-between items-start bg-transparent z-20">
-        <div className="flex space-x-6">
+        <div className="md:flex space-x-6 opacity-0">
           <a href="#home" className="text-2xl text-[#815D45] hover:text-[#815D45] pt-3 hover:border-t-2 hover:border-[#815D45] border-t-2 border-transparent transition-all duration-500 ease-in ">
             Home
           </a>
@@ -38,9 +38,9 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="absolute inset-0 flex flex-col justify-center items-center font-disma text-black">
-        <p className="antialiased box-border clear-both text-[#A97959] font-AlexBrush text-[46.08px] font-medium leading-[59.904px] break-words text-center">Welcome to our</p>
-        <h1 className="box-border clear-both text-[#143642] font-BebasNeue text-[160px] font-semibold tracking-[50px] leading-[215.04px] break-words text-center mb-16">RESTAURANT</h1>
+      <div className="absolute inset-0 flex flex-col justify-center items-center font-disma text-black mt-20 md:mt-0">
+        <p className="antialiased box-border clear-both text-[#A97959] font-AlexBrush text-[46.08px] font-medium leading-[59.904px] break-words text-center ">Welcome to our</p>
+        <h1 className="box-border clear-both text-[#143642] font-BebasNeue md:text-[160px] text-[120px] font-semibold md:tracking-[50px] leading-[215.04px] break-words text-center mb-16">RESTAURANT</h1>
       </div>
     </div>
   );

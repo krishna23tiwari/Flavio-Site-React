@@ -10,7 +10,7 @@ const Home = () => {
       ></div>
 
       <div className="absolute inset-0 p-10 font-BebasNeue text-[#143642] w-full flex justify-between items-start bg-transparent z-20">
-        <div className="md:flex space-x-6 opacity-0">
+        <div className="md:flex space-x-6 ">
           <a href="#home" className="text-2xl text-[#815D45] hover:text-[#815D45] pt-3 hover:border-t-2 hover:border-[#815D45] border-t-2 border-transparent transition-all duration-500 ease-in ">
             Home
           </a>
